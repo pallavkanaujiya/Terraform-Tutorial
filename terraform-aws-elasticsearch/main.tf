@@ -1,7 +1,7 @@
-provider "aws" {
+/*provider "aws" {
   region  = var.region
   #version = "~> 2.0"
-}
+}*/
 
 resource "aws_elasticsearch_domain" "default" {
   domain_name           = var.domain_name
